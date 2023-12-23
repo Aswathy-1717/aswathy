@@ -16,11 +16,6 @@ variable "hosted_zone_id" {
   description = "subnet nuber"
 }
 
-variable "ami_id" {
-
-  type = string
-  description = "ami id of the instance"
-}
 
 variable "instance_type" {
 
